@@ -9,12 +9,15 @@
 <body class="flex justify-center items-center min-h-screen">
 
   <main>
-    <h2>Welcome Back!</h2>
+    <h2 class="text-center text-[32px] text-gray-600">Welcome Back!</h2>
 
     <form>      
-      <div><input type="text" placeholder="Enter Email Address..."></div>
-      <div><input type="text" placeholder="Password"></div>
-      <div><input type="text" name="remember" id=""><label for="remember">Remember Me</label></div>
+      <div><input class="placeholder-gray-400" type="text" placeholder="Enter Email Address..."></div>
+      <div><input class="placeholder-gray-400" type="text" placeholder="Password"></div>
+      <div>
+        <input type="checkbox" name="remember">
+        <label for="remember" class="text-gray-400">Remember Me</label>
+      </div>
       <button type="submit">Login</button>
     </form>
 
